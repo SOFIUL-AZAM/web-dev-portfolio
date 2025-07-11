@@ -4,16 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web develop portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style/portfolio.css">
 </head>
-<body>
-    <header>
+<body class="open-sans-normal">
+    <header class="header secondary-bg">
+        <nav>
+            <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
+            <ul>
+                <li><a class="#474747">portfolio</a></li>
+                <li><a class="#474747">Blog</a></li>
+                <li><a href=""><button class="btn-primary">Here Me</button></a></li>
+            </ul>
+        </nav>
 
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="banner-greetings dark-2">Hi, I am</h4>
+                <h1 class="banner-title">Mary Hardy</h1>
+                <p class="banner-discription">
+                    short what able cold new see hold.Friendly as an betrayed fomerly he.Morning because as to society behaved moments.
+                </p>
+                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary">Contact</button>
+            </div>
+            <img class="banner-profile-pic" src="Image/Human icon.jpg"
+        </div>
     </header>
     <main>
+        <section class="about secondary-bg">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-description">I am a passionate and dedicated Web Developer with experience in both frontend and backend technologies. I enjoy building clean, responsive, and user-friendly websites. I'm always eager to learn new tools and technologies to improve my skills and deliver high-quality web applications that solve real-world problems.
+            </p>
 
+            <div class="about-items">
+                <div class="about-item">
+                    <p class="item-title">Name</p>
+                    <p class="item-description">Mary Hardy</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Email</p>
+                    <p class="item-description">abc@gmail.com</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Date of Birth</p>
+                    <p class="item-description">Dec 16,1971</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">From</p>
+                    <p class="item-description">Rajshahi, BD</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- What is do section start -->
+         <section class="skills">
+            <h3 class="section-title text-center">What I do</h3>
+            <p class="section-description text-center">I am a passionate web developer with hands-on experience in building small to medium-scale websites and web applications. I have worked with HTML, CSS, JavaScript, PHP, and Firebase to create clean, responsive, and user-friendly designs. I am confident working both independently and in teams, and I always focus on delivering projects on time based on client requirements.</p>
+         </section>
+
+         <div class="skills-container">
+            <div class="skill">
+                <img class="img-size" src="Image/Unofficial_JavaScript_logo_2.svg.png" alt="">
+                <h4 class="skill-title">Vanilla JavaScript</h4>
+                <p class="skill-description">I have a strong understanding of JavaScript and use it to build interactive and dynamic web functionalities.</p>
+            </div>
+            <div class="skill">
+                <img class="img-size" src="Image/react.png" alt="">
+                <h4 class="skill-title">React</h4>
+                <p class="skill-description">I use React to create fast, responsive, and component-based user interfaces with modern frontend architecture.</p>
+            </div>
+            <div class="skill">
+                <img class="img-size" src="Image/node-js-logo-png_seeklogo-273749.png" alt="">
+                <h4 class="skill-title">Node.js</h4>
+                <p class="skill-description">With Node.js, I build server-side applications and RESTful APIs that handle data and backend logic efficiently.</p>
+            </div>
+            <div class="skill">
+                <img class="img-size" src="Image/mongo.jpeg" alt="">
+                <h4 class="skill-title">Mongodb</h4>
+                <p class="skill-description">I work with MongoDB as a NoSQL database to store and manage data for web applications in a scalable way.</p>
+            </div>
+         </div>
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
